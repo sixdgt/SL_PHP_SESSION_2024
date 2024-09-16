@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+    background-color: #00ffbf;
+    height: 100vh;
+}
+
+.right {
+    text-align: center;
+    padding: 20px;
+}
+
+.right h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.right p {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.right button {
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #00ffbf;
+    padding: 15px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.left {
+    background-color: #fff;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.icon {
+    margin: 30px 0px;;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.social h1 {
+    color: #00ffbf;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.social .icon i {
+    border: 1px solid #1f1f1f;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.form-group i {
+    font-size: 2rem;
+    color: #00ffbf;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid #373737;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+input {
+    font-size: 1.5rem;
+    border: 0px;
+    width: 100%;
+}
+
+input:focus {
+    outline:none;
+}
+
+.form {
+    width: 100%;
+    margin: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 40%;
+}
+
+#signUp {
+    font-size: 2rem;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #00ffbf;
+    padding: 15px;
+    width: 300px;
+    cursor: pointer;
+    margin: 20px;
+}
