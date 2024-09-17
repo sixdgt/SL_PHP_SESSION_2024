@@ -1,0 +1,10 @@
+1. If no method is specified then by default GET method is used
+2. form tag has two attributes a. action and b. method
+3. action attribute - takes url in which the form data are submitted
+4. method attribute - takes two methods either GET or POST
+5. GET method - takes data to server via url
+6. POST method - takes data to server via form data i.e http request body
+7. if the root file is index.php then we don't need to include the file name in the url e.g localhost/
+8. to create own development server use the following command
+php -S localhost:8000
+in this case we dont need to run apache server
